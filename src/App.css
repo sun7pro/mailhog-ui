@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: minmax(200px, 400px) 1fr;
-  grid-template-rows: 40px 1fr;
+  grid-template-rows: 40px calc(100vh - 50px);
   gap: 1px 1px;
 }
 
@@ -27,10 +27,16 @@ a {
 @media screen and (max-width: 767.99px) {
   .grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 200px auto;
+    grid-template-rows: 40px 200px calc(100vh - 250px);
   }
 
   .grid-container header {
     grid-column: 1;
   }
+}
+
+.email-summary {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  display: block;
 }

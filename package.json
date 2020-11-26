@@ -10,7 +10,9 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "react-virtualized-auto-sizer": "^1.0.2",
     "react-window": "^1.8.6",
+    "react-window-infinite-loader": "^1.0.5",
     "web-vitals": "^0.2.4"
   },
   "proxy": "http://localhost:8025",
